@@ -1,0 +1,33 @@
+{
+  "name": "expanded-panel-wrapper",
+  "version": "1.0.0",
+  "description": "A Panel expender wrapper for react with typecsript",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmerTal/ReactExpandedPanelWrapper.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "modal",
+    "panel"
+  ],
+  "author": "Omer Tal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OmerTal/ReactExpandedPanelWrapper/issues"
+  },
+  "homepage": "https://github.com/OmerTal/ReactExpandedPanelWrapper#readme",
+  "dependencies": {
+    "@types/react": "^16.14.0",
+    "@types/react-modal": "^3.10.6",
+    "react": "^17.0.1",
+    "react-icons": "^3.11.0",
+    "react-modal": "^3.11.2",
+    "typescript": "^4.1.2"
+  }
+}
