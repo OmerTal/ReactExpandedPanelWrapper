@@ -7,19 +7,35 @@ This library uses the [React-Modal npm package](https://www.npmjs.com/package/re
 <br>
 
 To use is, simply wrap the desired content to be expanded with the library's component like so:
-```html
-<ExpandedPanel>
-    <div>
-        This will be expanded
+```javascript
+import React, { CSSProperties } from 'react'
+import ExpandedPanel from 'react-expanded-panel-wrapper'
+
+const fatherDivStyle: CSSProperties = {
+    position: 'relative',
+    padding: '50px',
+    border: 'solid 5px black',
+}
+
+const App = () => (
+    <div style={fatherDivStyle} >
+        <ExpandedPanel>
+            This will be expanded
+        </ExpandedPanel>
     </div>
-</ExpandedPanel>
+)
+
+export default App
 ```
 The result will be this:
 
 Before:
-
+![BeforeImage](./Before.png)
 
 After:
+![AfterImage](./After.png)
+On click:
+![AfterImage2](./After2.png)
 
 **note!**
 =
