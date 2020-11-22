@@ -1,6 +1,6 @@
 {
   "name": "react-expanded-panel-wrapper",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A Panel expender wrapper for react with typecsript",
   "main": "index.js",
   "scripts": {

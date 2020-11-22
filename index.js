@@ -5,7 +5,7 @@ var md_1 = require("react-icons/md");
 var react_modal_1 = require("react-modal");
 var ExpandedPanel = function (_a) {
     var children = _a.children;
-    var _b = react_1["default"].useState(false), isModalOpen = _b[0], setIsModalOpen = _b[1];
+    var _b = react_1.useState(false), isModalOpen = _b[0], setIsModalOpen = _b[1];
     var modalContent = children;
     var openModal = function () {
         setIsModalOpen(true);
