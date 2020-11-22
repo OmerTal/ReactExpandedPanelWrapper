@@ -1,10 +1,10 @@
 {
   "name": "react-expanded-panel-wrapper",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A Panel expender wrapper for react with typecsript",
   "main": "index.js",
   "scripts": {
-    "compile": "tsc --jsx react ./index.tsx && node ./index.js",
+    "compile": "tsc ./index.tsx && node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

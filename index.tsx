@@ -1,6 +1,6 @@
 import React, { useState , CSSProperties } from 'react';
 import { MdClose, MdFullscreen } from 'react-icons/md';
-import Modal from 'react-modal';
+import Modal, { setAppElement } from 'react-modal';
 
 interface IProps {
     children: React.ReactNode;
@@ -43,7 +43,7 @@ const ExpandedPanel: React.FC<IProps> = ({ children }: IProps) => {
         alignItems: 'center',
     }
 
-    Modal.setAppElement('#root');
+    setAppElement('#root');
 
     return (
         <>
