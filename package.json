@@ -1,5 +1,5 @@
 {
-  "name": "expanded-panel-wrapper",
+  "name": "react-expanded-panel-wrapper",
   "version": "1.0.0",
   "description": "A Panel expender wrapper for react with typecsript",
   "main": "index.tsx",
