@@ -32,6 +32,9 @@ var ExpandedPanel = function (_a) {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        top: 0,
+        left: 0,
+        cursor: 'pointer',
     };
     setAppElement('#root');
     return (React.createElement(React.Fragment, null,

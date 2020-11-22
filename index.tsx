@@ -41,6 +41,9 @@ const ExpandedPanel: React.FC<IProps> = ({ children }: IProps) => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        top: 0,
+        left: 0,
+        cursor: 'pointer',
     }
 
     setAppElement('#root');
