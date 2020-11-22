@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { CSSProperties } from 'react';
 import { MdClose, MdFullscreen } from 'react-icons/md';
-import './index.css';
 import Modal from 'react-modal';
 
 interface IProps {
@@ -37,13 +36,20 @@ const ExpandedPanel: React.FC<IProps> = ({ children }: IProps) => {
         },
     };
 
+    const topLeft: CSSProperties = {
+        position: 'absolute',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+    }
+
     Modal.setAppElement('#root');
 
     return (
         <>
             {modalContent}
             <MdFullscreen
-                className='topLeft'
+                style={topLeft}
                 color='rgb(0, 0, 0)'
                 size='2rem'
                 onClick={() => openModal()}
@@ -55,7 +61,7 @@ const ExpandedPanel: React.FC<IProps> = ({ children }: IProps) => {
             >
                 {modalContent}
                 <MdClose
-                    className='topLeft'
+                    style={topLeft}
                     color='rgb(0, 0, 0)'
                     size='2rem'
                     onClick={() => closeModal()}
