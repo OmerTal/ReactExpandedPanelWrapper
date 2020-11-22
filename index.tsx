@@ -1,4 +1,4 @@
-import React, { CSSProperties } from 'react';
+import React, { useState , CSSProperties } from 'react';
 import { MdClose, MdFullscreen } from 'react-icons/md';
 import Modal from 'react-modal';
 
@@ -7,7 +7,7 @@ interface IProps {
 }
 
 const ExpandedPanel: React.FC<IProps> = ({ children }: IProps) => {
-    const [isModalOpen, setIsModalOpen] = React.useState(false);
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
     const modalContent: React.ReactNode = children;
 
